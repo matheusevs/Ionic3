@@ -1,0 +1,95 @@
+{
+  "_from": "cordova-plugin-camera@5.0.3",
+  "_id": "cordova-plugin-camera@5.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-CfoqP8+0XGm8wS0Ri6BCaTTq195Z7ny/tXrD14DsYyR7hHjf1nn+B643tzdYuPNVynxMLRQa1T8n1EkCxFyUog==",
+  "_location": "/cordova-plugin-camera",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-camera@5.0.3",
+    "name": "cordova-plugin-camera",
+    "escapedName": "cordova-plugin-camera",
+    "rawSpec": "5.0.3",
+    "saveSpec": null,
+    "fetchSpec": "5.0.3"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-camera/-/cordova-plugin-camera-5.0.3.tgz",
+  "_shasum": "eb045f15ffa7722ffbec35a0cb32c1a0c5f91066",
+  "_spec": "cordova-plugin-camera@5.0.3",
+  "_where": "/Users/agilistecnologia/Desktop/Matheus Eduardo/Ionic 3 para iniciantes/MyApp",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-camera/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-camera",
+    "platforms": [
+      "android",
+      "ios",
+      "browser",
+      "windows",
+      "osx"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Camera Plugin",
+  "devDependencies": {
+    "@cordova/eslint-config": "^3.0.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova-android": ">=6.3.0"
+      },
+      "4.1.0": {
+        "cordova": ">=7.1.0",
+        "cordova-android": ">=6.3.0"
+      },
+      "5.0.0": {
+        "cordova": ">=9.0.0",
+        "cordova-android": ">=9.0.0",
+        "cordova-ios": ">=5.1.0"
+      },
+      "5.0.3": {
+        "cordova": ">=9.0.0",
+        "cordova-android": "<10.0.0",
+        "cordova-ios": ">=5.1.0"
+      },
+      "6.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-camera#readme",
+  "keywords": [
+    "cordova",
+    "camera",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "cordova-windows",
+    "cordova-osx"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-camera",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-camera.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "5.0.3"
+}
